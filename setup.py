@@ -37,7 +37,8 @@ setup(
         'botocore >= 1.12.54',
         'pynamodb >= 4.0.0, < 5.0.0',
         'singledispatch>=3.4.0.3',
-        'wrapt>=1.10.8'
+        'wrapt>=1.10.8',
+        'graphql-relay>=3.0',
     ],
     setup_requires=['pytest-runner'],
     tests_require=[

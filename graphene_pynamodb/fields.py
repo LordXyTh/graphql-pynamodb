@@ -7,7 +7,7 @@ from graphene import relay
 from graphene.relay.connection import PageInfo
 from graphql_relay import from_global_id
 from graphql_relay import to_global_id
-from graphql_relay.connection.connectiontypes import Edge
+from graphql_relay import Edge
 
 from graphene_pynamodb.relationships import RelationshipResultList
 from graphene_pynamodb.utils import get_key_name
